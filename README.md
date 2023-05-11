@@ -63,6 +63,7 @@ Connection is an Interface which provide session between between Java Applicatio
 
 10.What is Properties and Properties File?
 Properties File is on which contain the Data in the form of (key,value) pair.Which includes different properties in form of key.
+
 11.what is difference between Statement and Prepared Statement?
 
 Statement and Prepared Statement is used for accessing your database.
@@ -71,7 +72,24 @@ Statement interface cannot accept parameters and useful when you are using stati
 
 Prepared Statement is used when you want to use SQL statements many times. The PreparedStatement interface accepts input parameters at runtime.
 
-12.
+12.what is callable Statement?
+CallableStatement interface is used to call the stored procedures and functions.
+
+13.What is difference between execute,executeUpdate and executeQuery?
+
+ExecuteQuery:
+This method is use to execute the SQL statements which retrieve some data from database.
+
+ExecuteUpdate:
+This statement is used to execute SQL statements which update or modify database.
+
+Execute:
+This method can be use for any kind of SQL statements.
+
+14.Why do we need to close the connection?
+
+After finishing every task we have to close connection else it may lead to resourse leaks.
+
 
 
 
